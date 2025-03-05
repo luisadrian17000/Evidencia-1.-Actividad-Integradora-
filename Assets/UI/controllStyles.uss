@@ -1,0 +1,73 @@
+.mainContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.controlBar{
+    width: 60%;
+    height: 10%;
+    background-image: url("navBG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.sliderContainer{
+    height: 100%;
+    width: 65%;
+
+}
+.simSlider{
+    color: white;
+    height: 50%;
+   
+}
+.simSlider {
+    color: white;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+#unity-tracker {
+    background-color: white;
+
+}
+.playButton{
+    background-image: url("PlayButton.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;   
+
+}
+.settingsButton{
+    background-image: url("settingButton.png");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: transparent;
+    border-color: transparent;
+}
+.labelContainer{
+    width: 15%;
+    height: 100%;
+    font-size: 18px;
+    color: white;
+}

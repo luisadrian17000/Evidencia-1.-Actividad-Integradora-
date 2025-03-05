@@ -1,0 +1,19 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" schemaLocation="UnityEngine.UIElements file:/C:/Users/towyc/Desktop/MultiAgentsMarsSimultationWindowsDesktop/UIElementsSchema/UnityEngine.UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/controllStyles.uss?fileID=7433441132597879392&amp;guid=1f9a72ce604ed754d8d659cd90980d55&amp;type=3#controllStyles" />
+    <engine:VisualElement class="mainContainer">
+        <engine:VisualElement name="controlBar" class="controlBar" style="background-image: url(&quot;project://database/Assets/UI/navBG.png?fileID=2800000&amp;guid=1ceac260212fe1b4db5a2575690fb874&amp;type=3#navBG&quot;);">
+            <ui:VisualElement name ="labelContainer" class="labelContainer">
+                
+            </ui:VisualElement>
+            <ui:VisualElement name="sliderContainer" class="sliderContainer">
+                
+            </ui:VisualElement>
+            <ui:Button class="playButton">
+                
+            </ui:Button>
+            <ui:Button class="settingsButton">
+                
+            </ui:Button>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
